@@ -7,6 +7,7 @@ def f_conectar():
     conexion = mysql.connector.connect(
         host="mysql-a7094fa-yurieloswaldo-d079.a.aivencloud.com",
         user="avnadmin",
+        port=10900,
         password="AVNS_kL3zc97Rwmr95j5NRxI",
         database="defaultdb"
     )
