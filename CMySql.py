@@ -5,10 +5,10 @@ import mysql.connector
 # =========================================================
 def f_conectar():
     conexion = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="root",
-        database="comercio"
+        host="mysql-a7094fa-yurieloswaldo-d079.a.aivencloud.com",
+        user="avnadmin",
+        password="AVNS_kL3zc97Rwmr95j5NRxI",
+        database="defaultdb"
     )
     return conexion
 
